@@ -1,0 +1,139 @@
+/* General Styling */
+body {
+    font-family: 'Poppins', sans-serif;
+    color: #fff;
+    background-color: #1a1a1a;
+}
+
+/* Justify text alignment for Disclaimer Section */
+#disclaimer p {
+    text-align: justify;
+}
+
+/* Style important keywords */
+#disclaimer p strong {
+    color: #ff007f; /* Neon pink highlight */
+    font-weight: bold;
+}
+
+
+/* Hero Section */
+.hero {
+    background: linear-gradient(45deg, #ff007f, #4b0082);
+    height: 100vh;
+    color: white;
+    text-align: center;
+}
+
+/* Responsive logo image */
+.header_logo {
+    width: 100%; /* Makes the image scale with its container */
+    max-width: 500px; /* Ensures it doesn't exceed 500px */
+    height: auto; /* Maintains aspect ratio */
+    display: block;
+    margin: 0 auto; /* Centers the image */
+}
+
+/* Responsive logo */
+.ps_logo {
+max-width: 200px; /* Ensures the image does not exceed 200px */
+    height: auto; /* Maintains aspect ratio */
+    float: left; /* Aligns the image to the left */
+    margin-right: 15px; /* Adds spacing between the image and text */
+}
+
+/* Responsive About Us logo */
+.ps_logo2 {
+max-width: 200px; /* Ensures the image does not exceed 200px */
+    height: auto; /* Maintains aspect ratio */
+    float: left; /* Aligns the image to the left */
+    margin-right: 15px; /* Adds spacing between the image and text */
+}
+
+/* Adjustments for smaller screens */
+@media (max-width: 768px) {
+    .ps_logo, .ps_logo2 {
+        width: 50%; /* Allows the image to scale dynamically */
+    }
+}
+
+/* Navbar */
+.navbar {
+    background: #222;
+    padding: 10px 0;
+}
+
+/* Section Styling */
+section {
+    padding: 50px 0;
+}
+
+/* Buttons */
+.btn-primary {
+    background: #ff007f;
+    border: none;
+}
+
+/* Lists */
+.list-unstyled {
+    font-size: 18px;
+}
+
+.list-unstyled i {
+    color: #ff007f;
+    margin-right: 10px;
+}
+
+/* Contact Section */
+#contact {
+    background: #333;
+    padding: 60px;
+    color: #ff007f;
+}
+
+/* Make contact section font white */
+.contact-info p, .contact-info a {
+    color: white;
+}
+
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+    h2 {
+        font-size: 24px;
+    }
+}
+
+/* Highlight all div elements with a red border */
+/*div {
+    border: 2px solid red;
+}*/
+
+/* Footer Styling */
+footer {
+    background-color: #222;
+    color: white;
+    padding: 40px 20px;
+    text-align: center;
+    font-size: 16px; /* Default font size */
+}
+
+/* Smaller font for disclaimer text */
+footer p:not(:first-child) {
+    font-size: 12px;
+    color: #ccc; /* Subtle gray tone */
+    text-align: justify;
+
+}
+
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    footer {
+        padding: 30px 15px;
+    }
+    
+    footer p {
+        font-size: 14px;
+    }
+}
