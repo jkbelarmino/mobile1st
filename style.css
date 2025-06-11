@@ -44,9 +44,9 @@ max-width: 200px; /* Ensures the image does not exceed 200px */
 
 /* Responsive About Us logo */
 .ps_logo2 {
-max-width: 200px; /* Ensures the image does not exceed 200px */
+max-width: 300px; /* Ensures the image does not exceed 200px */
     height: auto; /* Maintains aspect ratio */
-    float: left; /* Aligns the image to the left */
+    float: right; /* Aligns the image to the right */
     margin-right: 15px; /* Adds spacing between the image and text */
 }
 
